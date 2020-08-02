@@ -10,17 +10,18 @@ of a typical routine after the analysis. It read a default flat file of the GEOS
 
 ## Installation
 
-You can install this package with using
+You can install this package with using either of the following:
 ``` r
 remotes::install_github("gferrsilva/geoquimica")
+devtools::install_github("gferrsilva/geoquimica")
 ```
 
 ## Dependencies:
 
-    dplyr,
-    purrr,
-    tidyr,
-    compositions
+    dplyr (1.0.0)
+    purrr (0.3.4)
+    tidyr (1.1.0)
+    compositions (1.40-5)
 
 ## Example
 
