@@ -40,4 +40,4 @@ library(geoquimica)
 
 ## Copryright and  License:
 
-The source code for Qmin is licensed under the GPL-2 License, see [LICENSE](LICENSE.md).
+The source code for 'geoquimica' is licensed under the GPL-2 License, see [LICENSE](LICENSE.md).
