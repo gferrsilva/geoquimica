@@ -37,4 +37,4 @@ library(geoquimica)
 
 ## Copryright and  License:
 
-The source code for Qmin is licensed under the MIT License, see [LICENSE](LICENSE).
+The source code for Qmin is licensed under the MIT License, see [LICENSE](LICENSE.md).
