@@ -32,7 +32,7 @@ library(geoquimica)
 ```
 ## Author:
 
-* [Guilherme Ferreira da Silva](http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4452179T4&idiomaExibicao=2), (E-mail: guilherme.ferreira@cprm.gov.br)
+* [Guilherme Ferreira da Silva](https://cutt.ly/RdsGmT5), (E-mail: guilherme.ferreira@cprm.gov.br)
 
 ## Copryright and  License:
 
