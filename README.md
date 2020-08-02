@@ -16,15 +16,20 @@ remotes::install_github("gferrsilva/geoquimica")
 devtools::install_github("gferrsilva/geoquimica")
 ```
 
-## R Version:
-    => R (3.6.0)
+# Depends:
 
-## Depends:
+    R (≥ 3.6.0)
+    
+## Imports
 
     dplyr (1.0.0)
     purrr (0.3.4)
     tidyr (1.1.0)
     compositions (1.40-5)
+
+## Suggests
+
+    mclust (5.4.6)
 
 ## Example
 
