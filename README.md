@@ -1,5 +1,5 @@
 
-# geoquimica v0.1.0: exploration data analysis with geochemistry data.
+# geoquimica v0.1.0: exploration geochemistry toolkit.
 
 <!-- badges: start -->
 <!-- badges: end -->
