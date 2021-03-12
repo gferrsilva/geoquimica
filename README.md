@@ -28,6 +28,9 @@ devtools::install_github(""gferrsilva/geoquimica")
     tidyr,
     compositions
 
+## Code Version
+
+geoquimica v0.1.1 (12/03/2021)
 
 ## Author:
 
