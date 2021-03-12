@@ -1,5 +1,5 @@
 
-# geoquimica v0.1.0: exploration data analysis with geochemistry data.
+# geoquimica v0.1.1: exploration data analysis with geochemistry data.
 
 <!-- badges: start -->
 <!-- badges: end -->
@@ -15,6 +15,12 @@ You can install this package with using
 remotes::install_github("gferrsilva/geoquimica")
 ```
 
+OR
+
+``` r
+devtools::install_github(""gferrsilva/geoquimica")
+```
+
 ## Dependencies:
 
     dplyr,
@@ -22,14 +28,7 @@ remotes::install_github("gferrsilva/geoquimica")
     tidyr,
     compositions
 
-## Example
 
-This is a basic example which shows you how to solve a common problem:
-
-``` r
-library(geoquimica)
-## basic example code
-```
 ## Author:
 
 * [Guilherme Ferreira da Silva](http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4452179T4&idiomaExibicao=2), (E-mail: guilherme.ferreira@cprm.gov.br)
