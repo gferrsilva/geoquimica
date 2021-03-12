@@ -2,23 +2,22 @@
 % Please edit documentation in R/elem_fillrate.R
 \name{elem_fillrate}
 \alias{elem_fillrate}
-\title{Title Get the proportion of non missing values for each columns of a dataframe
+\title{Get the proportion of non missing values for each columns of a dataframe
 This function returns  a two columns dataframe: column names and the non missing values proportion}
 \usage{
-elem_fillrate(df, sort = F, ...)
+elem_fillrate(df, sort = FALSE, ...)
 }
 \arguments{
 \item{df}{(data.frame): dataframe with any type of columns}
 
 \item{sort}{(logical): if TRUE, R returns the object sorted by the fill rate (non NA proportion) in decreasing order b}
+
+\item{...}{(ellipses): any additional parameter.}
 }
 \value{
 dataframe
 }
 \description{
-Title Get the proportion of non missing values for each columns of a dataframe
+Get the proportion of non missing values for each columns of a dataframe
 This function returns  a two columns dataframe: column names and the non missing values proportion
-}
-\examples{
-elem_fillrate(df, sort = TRUE)
 }

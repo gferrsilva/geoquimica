@@ -10,13 +10,12 @@ elem_imput(df, coef = 0.5, ...)
 \item{df}{(data.frame): a data.frame containing the elements concentrations}
 
 \item{coef}{(double): default = 0.5. A number, generally lower than 1, to be multiplied to the lower detection limit value.}
+
+\item{...}{(ellipsis): any additional variable;}
 }
 \value{
 data.frame
 }
 \description{
 Impute values lower than limit of detection by replacing it for the multiplication of coef*LOD
-}
-\examples{
-elem_imput(df, coef = 0.9)
 }

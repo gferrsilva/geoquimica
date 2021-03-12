@@ -10,13 +10,12 @@ elem_select(df, cut = 0.75, ...)
 \item{df}{(data.frame): a 'data.frame' or flat object with numerical variables}
 
 \item{cut}{(double): A number <default = 0.75>, generally lower than 1, to be multiplied to the lower detection limit value.}
+
+\item{...}{(ellipsis): any additional variable;}
 }
 \value{
 data.frame
 }
 \description{
 Select elements by the proportion of non-censured values
-}
-\examples{
-elem_select(df, cut = 0.5)
 }

@@ -12,13 +12,12 @@ elem_norm(df, method = "minmax", keep = NULL, ...)
 \item{method}{(character): the method choosen for normalization <default = minmax>. Must be one of the three options: "minmax" (defines a range greater than or equal to 0 and less than or equal to 1), "clr" (centered log ratio transformation) and "log10" (logarithm base 10).}
 
 \item{keep}{(character): a character vector containing the names of numeric columns to be preserved of the normalization.}
+
+\item{...}{(ellipsis): any additional variable;}
 }
 \value{
 data.frame
 }
 \description{
 Normalize your data into the minmax or centered log ratio distribution
-}
-\examples{
-elem_norm(df, method = "clr", keep = c("Identifier","UTM_E","UTM_N","LAT","LONG"))
 }

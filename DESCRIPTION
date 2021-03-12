@@ -2,7 +2,7 @@ Package: geoquimica
 Type: Package
 Title: Exploration Data Analysis on Geochemistry Data
 Version: 0.1.0
-Author: Guilherme Ferreira
+Author: person("Guilherme","Ferreira", email = "guilherme.ferreira@cprm.gov.br", role = c("aut", "cre"))
 Maintainer: Guilherme Ferreira <guilherme.ferreira@cprm.gov.br>
 Description: This package helps to deal with the geochemistry data processing
     of a typical routine after the analysis. It read a default flat file of the
@@ -11,6 +11,7 @@ Description: This package helps to deal with the geochemistry data processing
     data, replaces the censured data to default values, transform the data into minmax
     or centered log-ratio distribution, and more. Written to be used by the Geochemistry
     Division Team of the Geological Survey of Brazil.
+Depends: R(>= 3.6.0)
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
@@ -18,5 +19,12 @@ Imports:
     dplyr,
     purrr,
     tidyr,
-    compositions
-RoxygenNote: 7.1.0
+    ggplot2,
+    stats,
+    compositions,
+    utils,
+    plyr,
+    tidyselect
+RoxygenNote: 7.1.1
+Suggests: 
+    testthat

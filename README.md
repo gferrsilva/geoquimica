@@ -1,5 +1,5 @@
 
-# geoquimica v0.1.0: exploration geochemistry toolkit.
+# geoquimica v0.1.0: exploration data analysis with geochemistry data.
 
 <!-- badges: start -->
 <!-- badges: end -->
@@ -10,26 +10,17 @@ of a typical routine after the analysis. It read a default flat file of the GEOS
 
 ## Installation
 
-You can install this package with using either of the following:
+You can install this package with using
 ``` r
 remotes::install_github("gferrsilva/geoquimica")
-devtools::install_github("gferrsilva/geoquimica")
 ```
 
-# Depends:
+## Dependencies:
 
-    R (≥ 3.6.0)
-    
-## Imports
-
-    dplyr (1.0.0)
-    purrr (0.3.4)
-    tidyr (1.1.0)
-    compositions (1.40-5)
-
-## Suggests
-
-    mclust (5.4.6)
+    dplyr,
+    purrr,
+    tidyr,
+    compositions
 
 ## Example
 
@@ -41,8 +32,8 @@ library(geoquimica)
 ```
 ## Author:
 
-* [Guilherme Ferreira da Silva](https://cutt.ly/RdsGmT5), (E-mail: guilherme.ferreira@cprm.gov.br)
+* [Guilherme Ferreira da Silva](http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4452179T4&idiomaExibicao=2), (E-mail: guilherme.ferreira@cprm.gov.br)
 
 ## Copryright and  License:
 
-The source code for 'geoquimica' is licensed under the GPL-2 License, see [LICENSE](LICENSE).
+The source code for Qmin is licensed under the GPL-2 License, see [LICENSE](LICENSE.md).
