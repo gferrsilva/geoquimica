@@ -18,7 +18,7 @@ remotes::install_github("gferrsilva/geoquimica")
 OR
 
 ``` r
-devtools::install_github(""gferrsilva/geoquimica")
+devtools::install_github("gferrsilva/geoquimica")
 ```
 
 ## Dependencies:
